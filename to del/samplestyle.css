@@ -1,0 +1,105 @@
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+div {
+  background-color: gray;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+h2{
+      display: inline; 
+      /* replaced table with inline */
+    /*margin: 0px auto 0px auto; /* keep the table centered */
+    font-size:16px;background-color:maroon; /*removed padding 2px and size made as 18 instead of 20 px */
+  color: black;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    }
+ /*for responsive design 
+@media (min-width: 992px) {
+  #column1 {
+    width: 33%; }
+    #column2 {
+    width: 33%;}
+     #column3 {
+    width: 33%;}
+  }
+@media (min-width: 768px) (max-width: 991px) {
+  #column1 {
+    width: 50%; }
+    #column2 {
+    width: 50%;}
+     #column3 {
+    width: 100%;}
+  
+  @media (max-width: 767px) {
+  #column1 {
+    width: 100%; }
+    #column2 {
+    width: 100%;}
+     #column3 {
+    width: 100%;}  */
+
+ /*section {
+  color: black;
+  margin: 5px;
+  text-align: left;
+  background: gray;
+  padding 5px;
+  border-collapse: separate;
+  }   
+ p {
+  color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 5px;
+  text-align: left;
+  background: gray;
+  } */
+
+
+.row:{
+  content: "";
+  clear: both; 
+}
+.column1 {
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+  clear :both;
+  column-gap: 200px;
+  background : gray;
+       }
+
+.column2 {
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+   background : gray;
+     }
+
+.column3 {
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+  background : gray;
+     }
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both; */
+}
+</style>
